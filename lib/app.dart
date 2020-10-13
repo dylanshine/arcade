@@ -1,3 +1,4 @@
+import 'package:arcade/gameplay/gameplay_page.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {
@@ -11,7 +12,7 @@ class App extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Container(),
+      home: GameplayPage(),
     );
   }
 }
