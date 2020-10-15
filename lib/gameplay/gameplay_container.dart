@@ -12,9 +12,9 @@ class GameplayContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: child,
-      padding: const EdgeInsets.all(8.0),
+      padding: const EdgeInsets.all(6.0),
       decoration: BoxDecoration(
-        color: Colors.lightBlue,
+        color: Colors.blueGrey,
         borderRadius: const BorderRadius.all(
           Radius.circular(8.0),
         ),

@@ -25,3 +25,9 @@ class _PanelControllerHookState
   @override
   PanelController build(BuildContext context) => _panelController;
 }
+
+extension PanelControllerExtension on PanelController {
+  void toggle() {
+    isPanelClosed ? open() : close();
+  }
+}
